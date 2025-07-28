@@ -1,0 +1,34 @@
+#partner {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(-25deg, rgba(255,255,255,0) 40%, rgb(36, 72, 110) 90%), url(../img/section_3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: colorslide;
+  animation-duration: 1s;
+}
+
+@keyframes colorslide {
+  form{
+    background-position-left: 0%, center;
+  }, center;
+  to{
+    background-position-left: 100%, center;
+  }
+}
+
+#partner .wrap {
+  gap: 40px;
+}
+#partner .wrap h2 {
+  
+}
+#partner .wrap h3 {
+  
+}
+#partner .wrap p {
+  margin-bottom: 26px;
+}
+#partner .wrap a {
+  
+}

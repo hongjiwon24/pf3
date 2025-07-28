@@ -1,0 +1,43 @@
+#business {
+  display: flex;
+  align-items: center;
+  background-image: url(../img/section_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#business .wrap {
+}
+
+#business h2.hide {
+}
+
+#business ul.flex {
+}
+
+#business ul {
+}
+
+#business ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+#business ul li:not(:first-child){
+  display: none;
+}
+
+#business ul li h3.h1 {
+}
+
+#business ul li p.p {
+  order: 3;
+  background-color: #003e84;
+  padding: 80px 190px 80px 50px;
+  border-radius: 0 0 90px 0;
+}
+
+#business ul li a.menu {
+  order: 2;
+  margin-bottom: 26px;
+}
